@@ -11,8 +11,16 @@
 }
 
 body {
-  display: flex;
-  align-items: flex-end;
+
+/*
+  display: grid;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+*/
+  
+  display: grid;
+  align-items: stretch;
   justify-content: center;
   min-height: 100vh;
   background-color: var(--dark-color);
